@@ -56,4 +56,4 @@ jobs:
         with:
           app-name: 'Get-Fetch-Send'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA47D0A503DC4C0D8D24F18BEA7F7D0D }}
+          publish-profile: ${{ secrets.Publish_Profile }}
