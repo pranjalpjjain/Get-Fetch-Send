@@ -21,6 +21,16 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: '3.9'
+          
+          
+      - name: Upload artifact for deployment jobs
+        uses: actions/upload-artifact@v2
+        with:
+          name: python-app
+          path: |
+            . 
+            !venv/
+
 
       
   deploy:
