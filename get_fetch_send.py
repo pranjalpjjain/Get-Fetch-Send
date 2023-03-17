@@ -44,7 +44,7 @@ def fetchNews(name,country,query):
 def sendemail(MailId,body):
 
     sender='pranjalpjjain666@gmail.com'
-    password="fxonczrqzsbfccfl"
+    password="ydgoshwuqassdnpj"
     receiver=MailId
     subject='Daily News'
     
